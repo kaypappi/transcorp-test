@@ -1,0 +1,403 @@
+.banner {
+  width: 100%;
+  background: url("../../Assets/PNG/banner/rectangle-3.png");
+  background-size: cover;
+  position: relative;
+  min-height: 600px;
+}
+
+.banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7),
+    rgba(67, 67, 67, 0.2)
+  );
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  color: white;
+}
+
+.banner-top-text {
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 4.94px;
+  color: #ffffff;
+}
+
+.banner-title {
+  font-family: Georgia;
+  font-size: 52px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.06px;
+}
+
+.banner-bottom-text {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.82px;
+}
+
+.play {
+  margin-top: 40px;
+}
+
+.easy-check {
+  width: 70%;
+  margin: auto;
+  
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 13px 4px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 13px 4px rgba(0, 0, 0, 0);
+  margin-top: -84px;
+  position: relative;
+  z-index: 1;
+}
+
+.easy-check .check-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  text-align: start;
+  background: white;
+}
+
+.easy-check p {
+  text-align: start;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.58px;
+  color: #9b9b9b;
+}
+
+.checkin {
+  border-right: 1px solid #ebebf2;
+}
+
+.checkout {
+  border-right: 1px solid #ebebf2;
+  padding-left: 30px;
+}
+
+.check-right {
+  background: #053b58;
+}
+
+.guests {
+  padding-left: 30px;
+}
+
+.check-left .day {
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.check-right {
+  padding: 30px;
+}
+
+.check-right .code {
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.58px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.check-right .availability {
+  padding: 15px;
+  background-color: #ff7200;
+  color: white;
+}
+
+.about-us {
+  margin-top: 120px;
+}
+
+.about-us .top-text {
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 4.94px;
+
+  color: #9b9b9b;
+}
+
+.about-us .title {
+  font-family: Georgia;
+  font-size: 52px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.06px;
+  text-align: center;
+  color: #000000;
+}
+
+.about-us .bottom-text {
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.82px;
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.lounge {
+  width: 100%;
+}
+
+.about-us .pattern-box {
+  background: url("../../Assets/PNG/pattern1/rectangle-11.png");
+  margin-top: -150px;
+
+  padding-top: 200px;
+}
+
+.view-more {
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 4.94px;
+  text-align: center;
+  color: #9b9b9b;
+  text-decoration: underline #9b9b9b;
+}
+
+.rooms-holder {
+  margin-top: 150px;
+  background: white;
+}
+
+.rooms-holder .rooms-left {
+  padding: 64px 64px 64px 0;
+}
+
+.rooms-holder .rooms-left .row {
+  margin-bottom: 0 !important;
+}
+
+.rooms-holder .discover {
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 4.94px;
+  text-align: start;
+  color: #9b9b9b;
+}
+
+.rooms-holder .title {
+  font-family: Georgia;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.12px;
+  text-align: start;
+  color: #000000;
+}
+
+.rooms-right {
+  padding: 0px !important;
+}
+
+.rooms-holder .left-img {
+  width: 100%;
+  height: 100%;
+}
+
+.collection p {
+  text-align: start;
+}
+
+.collection img {
+  width: 120px;
+  height: 80px;
+}
+
+.room-list {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.room-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.room-list::-webkit-scrollbar-track {
+  background-color: #d8d8d8;
+}
+
+.room-list::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
+.room {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 20px;
+  height: 100px;
+}
+
+.room .room-img {
+  width: 100%;
+  height: 100%;
+}
+
+.room .room-right {
+  text-align: start;
+}
+
+.room .type {
+  font-family: Georgia;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+
+  color: #000000;
+}
+
+.room .details {
+  color: #9b9b9b;
+}
+
+.room .details .price {
+  color: #000000;
+}
+
+.testimonial-section {
+  background: white;
+  width: 60%;
+  margin: auto;
+  margin-top: 150px;
+  padding: 80px 100px 20px 100px;
+}
+
+.testimonial-section .top-text {
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 4.94px;
+
+  color: #9b9b9b;
+}
+
+.testimonial-section .title {
+  font-family: Georgia;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.12px;
+  text-align: center;
+  color: #000000;
+}
+
+.testimonial-section .text {
+  font-family: Georgia;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.46;
+  letter-spacing: 1.41px;
+  text-align: center;
+  color: #000000;
+}
+
+.blog {
+  width: 60%;
+  margin: auto;
+  margin-top: 150px;
+  text-align: start;
+}
+
+.blog .heading {
+  font-family: Georgia;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.12px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.blog .card-date {
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.82px;
+  
+  color: #9b9b9b;
+}
+
+.blog .card-heading {
+  font-family: Georgia;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.82px;
+
+  color: #000000;
+}

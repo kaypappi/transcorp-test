@@ -1,0 +1,47 @@
+.menu-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    padding: 33px 0;
+}
+
+.menu-list .right-menu{
+    justify-self: end;
+    align-self: center;
+}
+
+.menu-list .left-menu{
+    justify-self: start;
+    align-self: center;
+}
+
+.menu-list .menu-logo{
+    align-self: center;
+    justify-self: center;
+    height: 40px;
+}
+
+
+
+
+.nav2 .menu-top{
+    width: 70%;
+    padding: 8px 0;
+    border-bottom: solid 1px #e0e2e5;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 30px;
+
+
+}
+
+.menu-top .contact-us {
+    text-align: start;
+}
+
+.menu-top .language{
+    text-align: end;
+}
