@@ -4,6 +4,7 @@ import Play from "../../Assets/PNG/play/ic-play-circle-outline.png";
 import Lounge from "../../Assets/PNG/lounge/rectangle-7.png";
 import Room1 from "../../Assets/PNG/room1/rectangle-8-copy.png";
 import Pattern1 from "../../Assets/PNG/pattern1/rectangle-11.png";
+import Profile from '../../Assets/PNG/profile/oval.png'
 export default class Home extends Component {
   render() {
     return (
@@ -156,7 +157,7 @@ export default class Home extends Component {
                 commodo urna id neque finibus, ac sollicitudin arcu tempus. In
                 hac habitasse platea dictumst”
               </p>
-              <img src="" alt="" className="profile-img" />
+              <img src={Profile} alt="" className="profile-img" />
               <p className="profile-name">FARAH WILIAMS</p>
             </div>
             <div className="blog">
