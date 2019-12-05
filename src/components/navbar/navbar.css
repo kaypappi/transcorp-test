@@ -1,11 +1,20 @@
 .menu-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 5px;
     width: 70%;
     justify-content: center;
     margin: auto;
     padding: 33px 0;
+}
+
+.menu-left{
+    text-align: start;
+    align-self: center;
+}
+
+.menu-right{
+    text-align: end;
+    align-self: center;
 }
 
 .menu-list .right-menu{
@@ -19,6 +28,26 @@
 }
 
 .menu-list .menu-logo{
+    align-self: center;
+    justify-self: center;
+    height: 40px;
+}
+
+.mobile-bar{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 100%;
+}
+
+.nav3{
+    margin: 33px 0;
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.logo{
     align-self: center;
     justify-self: center;
     height: 40px;
