@@ -48,7 +48,7 @@ export default class navbar extends Component {
                 <nav className='transparent z-depth-0 nav3'>
                     <div className="nav-wrapper  mobile-bar">
                         <a href="#" data-target="slide-out" className="sidenav-trigger black-text mobile-bar">
-                        <i className="black-text fas fa-bars"></i>
+                        <i className="black-text hamburger fas fa-bars"></i>
                             
                         </a>
                         <img src={Logo} alt="" className="logo brand-logo  center"/>
