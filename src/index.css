@@ -13,6 +13,24 @@ code {
 }
 
 @font-face {
-  font-family: 'Georgia';
-  src: local('Georgia'), url('./Assets/font/georgia/Georgia Regular font.ttf') format('truetype');
+  font-family: "Georgia";
+  src: local("Georgia"),
+    url("./Assets/font/georgia/Georgia Regular font.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Bodoni SvtyTwo ITC TT";
+  src: url("//db.onlinewebfonts.com/t/8bc773512e829a52d207976b43c0ecca.eot");
+  src: url("//db.onlinewebfonts.com/t/8bc773512e829a52d207976b43c0ecca.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8bc773512e829a52d207976b43c0ecca.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/8bc773512e829a52d207976b43c0ecca.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/8bc773512e829a52d207976b43c0ecca.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/8bc773512e829a52d207976b43c0ecca.svg#Bodoni SvtyTwo ITC TT")
+      format("svg");
+}
+
+@import url(//db.onlinewebfonts.com/c/8bc773512e829a52d207976b43c0ecca?family=Bodoni+SvtyTwo+ITC+TT);

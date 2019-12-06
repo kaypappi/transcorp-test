@@ -64,12 +64,21 @@
 
   display: grid;
   grid-template-columns: 3fr 1fr;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 13px 4px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 13px 4px rgba(0, 0, 0, 0);
+  
   margin-top: -84px;
   position: relative;
   z-index: 1;
+}
+
+.easy-check:after {
+	position:absolute;
+	right:10px; /* Positioned some distance in from the left and right edges to avoid the box-shadow blur from peeking through on the sides of the box */
+	bottom:0;
+	left:10px;
+	height:20px;
+	border-radius:0 0 50% 50% / 0 0 20px 20px;
+	box-shadow: 0 10px 15px 6px rgba(0, 0, 0, 0.2);
+	content:'';
 }
 
 .easy-check .check-left {
@@ -77,7 +86,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding: 30px;
   text-align: start;
-  background: white;
+  background: white;position:relative;
+	z-index:1;
 }
 
 .easy-check p {
@@ -103,6 +113,8 @@
 
 .check-right {
   background: #053b58;
+  position:relative;
+	z-index:1;
 }
 
 .guests {
@@ -110,6 +122,7 @@
 }
 
 .check-left .day {
+  font-family: 'Bodoni SvtyTwo ITC TT';
   font-size: 48px;
   font-weight: normal;
   font-stretch: normal;
